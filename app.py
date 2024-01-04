@@ -13,7 +13,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def helloworld():
-    return "Weather is cold today"
+    return "Weather is cold today in gurgaon" 
 
 
 if __name__ == "__main__":
