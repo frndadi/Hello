@@ -16,5 +16,9 @@ def helloworld():
     return "Weather is cold today in gurgaon" 
 
 
+@app.route('/aditya')
+def winter():
+    return "Weather is cold today in gurgaon" 
+
 if __name__ == "__main__":
     app.run()
